@@ -1,0 +1,60 @@
+.bg-container {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.heading-time-zone {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode-toggle,
+.time-format-toggle {
+    margin: 5px;
+}
+
+.date-picker {
+    display: block;
+    margin: 10px auto;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-max-input {
+    width: 80px;
+    margin: 0 10px;
+}
+
+.time-slider {
+    width: 100%;
+}
+
+.droppable {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.draggable {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: move;
+}
